@@ -1,9 +1,19 @@
-# 丸焼き豪華豚
+# DOOM風FPSゲーム
+
+MiniPy3DR(pygame製の3Dレンダラ)のFPSツールキット `minipy3dr.fps` 
+を使ったDOOM風FPSゲーム
 
 ## 実行環境の必要条件
-* python >= 3.10
-* pygame >= 2.1
-* 必要なものがあれば追記してください（非推奨）
+
+* Python >= 3.10
+* pygame >= 2.5
+* minipy3dr >= 0.5.0 (`pip install minipy3dr`)
+
+## 実行方法
+
+```
+python main.py
+```
 
 ## ゲームの概要
 * 主人公キャラクター豪華豚（ゴウカトン）をマウス操作により丸焼きにするゲームで，．．．
